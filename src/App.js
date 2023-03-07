@@ -1,11 +1,21 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Heading from './component/component1';
+import Input from './component/component2';
+import Btn from './component/component3';
+
 
 function App() {
+  const headingText = "Register here..."
+  const butonText = "Submit"
   return (
-    <div className="App">
+      <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        
+        <Heading headingText = {headingText}/>
+        {Input()}
+        <Btn butonText = {butonText}/>
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -16,7 +26,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
   );

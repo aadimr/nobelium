@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,27 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.App-header{
+  border: 2px solid black;
+  width: 350px;
+  height: 300px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 60px;
+  padding-left: 30px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+input{
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+}
+button{
+  width: 85px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 20px;
 }
