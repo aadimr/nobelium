@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .prfile1{
+    border: 2px solid black;
+} */
+.img1{
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.name{
+    font-size: 16px;
+    font-weight: bold;
+}
+.Designation{
+    font-size: 16px;
+}
