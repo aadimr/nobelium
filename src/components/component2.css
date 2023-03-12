@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.incDecrCount{
+    background-color: #ACE1AF;
+    border-radius: 20px;
+    margin-top: 15px;
+    width: 350px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.btn1{
+   margin-right: 1.5px;
+   font-size: 14px;
+   height: 25px;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+.btn2{
+    margin-left: 1.5px;
+    font-size: 14px;
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+    

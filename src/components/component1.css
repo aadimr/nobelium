@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.addList{
+    background-color: #4FFFB0;
+    border-radius: 20px;
+    margin-top: 15px;
+    width: 350px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 35px;
+}
+
+.ul{
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+}
