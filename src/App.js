@@ -6,13 +6,13 @@ import ChangeName from './components/component3';
 function App() {
   return (
    <>
-   <div className='container'>
+   <div>
    <Input/>
    </div>
-   <div className='container1'>
+   <div>
    <Count/>
    </div>
-   <div className='container'>
+   <div>
    <ChangeName/>
    </div>
    </>
