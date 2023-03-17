@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.limitedTextArea{
+    width: fit-content;
+    height: fit-content;;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.textArea{
+    width: 500px;
+    height: 250px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Hubballi', cursive;
+    background-color: black;
+    border-color: white;
+    color: blue;
+    border-radius: 20px;
+}
+
+p{
+    font-size: 25px;
+    font-weight: bold;
+}
