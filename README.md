@@ -1,4 +1,4 @@
-1. We will be having an input field and submit button (missing in above gif) .
+1. We will be having an input field and submit button .
 2. On click submit button we will add a new task in our todo list .
 3. We will be maintaining the count of uncompleted tasks.
 4. With every task there will be a complete and delete button.
