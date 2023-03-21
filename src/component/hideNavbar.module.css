@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.menu{
+    display: none;
+} 
+
+@media screen and (max-width:1024px){
+    .menu{
+        display: inline-block;
+        width: 100vw;
+        height: 65px;
+        position: sticky;
+        background-color: white;
+        top: 0px;
+    }
+}
+
+.hideList{
+     width: 100vw;
+     height: 184vh;
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+     list-style: none;
+     padding-left: 10px;
+ }
