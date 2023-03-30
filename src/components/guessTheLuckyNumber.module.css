@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+  
+.inputArea{
+    width: 275px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.btn{
+    width: 120px;
+    height: 40px;
+    margin-left: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
