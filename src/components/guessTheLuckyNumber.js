@@ -14,7 +14,7 @@ function GuessLuckyNumber(){
         }else if(+guessNumber < luckyNumber){
             alert("your guessed number is less than the lucky number")
         }else{
-            alert(`Congratulations! you guessed the correect number in ${countAttamp + 1} attempt`)
+            alert(`Congratulations! you guessed the correect number in ${countAttamp + 1} attempts`)
             setLuckyNumber(Math.floor(Math.random() * 19) + 1)
             setCountAttemt(0)
         }
