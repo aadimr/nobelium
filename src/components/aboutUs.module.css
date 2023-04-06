@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.heading {
+    width: 400px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 55px;
+    color: black;
+}
+
+.info {
+    width: 30vw;
+    height: 100vh;
+}
+
+.infoSec2 {
+    padding-left: 55px;
+    color: black;
+}
+
+.mainContainer {
+    display: flex;
+    background-color: rgb(179, 164, 164);
+}
+
+.about {
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    padding: 0px 15px 0px 15px;
+    color: black;
+}
+
+.about p{
+    font-size: 17px;
+}
