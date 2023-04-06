@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import ChangeTextColor from './components/changeColor';
+import { changeColorAtom } from './RecoilStorage';
+import { useRecoilState } from 'recoil';
 
 function App() {
+
+const [color,setColor] = useRecoilState(changeColorAtom)
+
+function handleClick(){
+  setColor(!color)
+}
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <ChangeTextColor/>
+    <button onClick={handleClick}>changeColor</button>
     </div>
   );
 }
