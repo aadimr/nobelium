@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.tableHeader th{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.tableHeader :nth-child(odd){
+    background-color: rgb(174, 174, 235);
+}
+
+.tableHeader :nth-child(even){
+    background-color: lightgray;
+}
+
+.tableData td{
+    padding: 10px;
+}
+
+.tableData :nth-child(odd){
+    background-color: rgb(174, 174, 235);
+}
+
+.tableData :nth-child(even){
+    background-color: lightgray;
+}
+
+.btn{
+    cursor: pointer;
+}
