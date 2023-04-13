@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 1px solid;
+    width: 100vw;
+    border-collapse: collapse;
+}
+
+.heading tr th{
+    border: 1px solid;
+}
+
+.heading tr :nth-child(2){
+    width: 160px;
+}
+
+.heading tr :nth-child(3){
+    width: 160px;
+}
+
+.heading tr :nth-child(4){
+    width: 160px;
+}
+
+.heading tr :nth-child(5){
+    width: 160px;
+}
+
+.heading tr :nth-child(6){
+    width: 160px;
+}
+
+.heading tr :nth-child(7){
+    width: 160px;
+}
+
+.body tr td{
+    border: 1px solid;
+}
